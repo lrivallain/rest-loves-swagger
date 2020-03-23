@@ -2,7 +2,6 @@
 *.iml
 *.iws
 *.eml
-out/
 .DS_Store
 .svn
 log/*.log
@@ -14,3 +13,4 @@ js/reveal.min.js
 demo/codegen/
 demo/run.sh
 demo/.ipynb*
+demo_old/

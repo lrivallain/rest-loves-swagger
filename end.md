@@ -3,7 +3,7 @@
 
 Les slides de la présentation:
 
-[vupti.me/vmug2019](https://vupti.me/vmug2019)
+[vupti.me/rest-loves-swagger](https://vupti.me/rest-loves-swagger)
 
 
 ## Merci !
