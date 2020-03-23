@@ -1,0 +1,21 @@
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+stages:
+  - build
+
+make-pdf:
+  stage: build
+  image:
+    name: astefanutti/decktape:1.0.0
+    entrypoint: [""]
+  tags:
+    - france
+    - sii
+  script:
+    - /decktape/bin/phantomjs /decktape/decktape.js index-dejtech-sii.html rest-loves-swagger.pdf
+  artifacts:
+    name: pdf
+    expire_in: 2 days
+    paths:
+      - rest-loves-swagger.pdf
