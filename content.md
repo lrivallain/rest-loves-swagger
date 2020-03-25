@@ -11,7 +11,7 @@ Kyle Ruddy @ VMware Inc. <!-- .element style="font-size:0.8em; text-align: right
 
 1. Les APIs nous envahissent
 1. Anatomie d'un appel d'API REST
-1. API: descriptions et standardisation
+1. API: description et standardisation
 1. Sortez les outils, on va jardiner
 1. Démo: Votre SDK en 2 minutes ⏱!
 
@@ -61,7 +61,7 @@ On retrouve des APIs dans toutes les interactions *M2M* (Machine to machine) du 
 * …
 
 
-### À travers des API, un logiciel…
+### À travers des APIs, un logiciel…
 
 * accède aux données d'une BDD
   * requête
@@ -94,7 +94,7 @@ Dans un modèle de communication avec API:
 ### De XML-RPC à REST
 <!-- .slide: style="text-align:center;" -->
 
-Un rapide historique des API et *Web Services*
+Un rapide historique des APIs et *Web Services*
 
 
 ### XML-RPC
@@ -302,8 +302,8 @@ Les méthodes HTTP sont utilisées pour décrire le type d'action à réaliser a
 
 * `GET`: Obtenir une ressource en lecture
 * `POST`: Envoyer des données (formulaire) et créer une ressource
-* `PUT`: Modifier/Remplacer une ressources (on ré-envoie la totalité de la ressource)
-* `PATCH`: Modifier une ressources en envoyant seulement la partie modifiée
+* `PUT`: Modifier/Remplacer une ressource (on ré-envoie la totalité de la ressource)
+* `PATCH`: Modifier une ressource en envoyant seulement la partie modifiée
 * `DELETE`: Supprimer une ressource
 
 
@@ -381,7 +381,7 @@ En-tête utilisé pour définir la politique de cache des contenus: type de cach
 
 Dans une requête, le *body* permet d'envoyer:
 
-* Le contenu d'un formulaire, ou des paramêtres de requête
+* Le contenu d'un formulaire, ou des paramètres  de requête
 * Des données à enregistrer ou utiliser (fichiers, contenu texte etc.)
 
 Dans une réponse, le *body* contient généralement les données demandées ou générées pour une requête donnée.
@@ -391,7 +391,7 @@ Dans une réponse, le *body* contient généralement les données demandées ou 
 
 L'_**O**pen **A**PI **I**nitiative_ a été initiée par la Linux Foundation sur les bases de Swagger:
 
-Un modèle de description d'API REST en JSON qui décrit méthodes, headers, paramêtres, body, réponses etc.
+Un modèle de description d'API REST en JSON qui décrit méthodes, headers, paramètres, body, réponses etc.
 
 
 ### OAS v3
@@ -420,7 +420,7 @@ Le produit le plus connu est Swagger UI qui permet de documenter et visualiser u
 
 Swagger/OpenAPI s'imposer petit à petit comme un standard. Mais…
 
-Chacun fait un peu comme il l'entend et au final, beaucoup d'API ne sont pas documentées de cette manière, soit par antériorité, soit par choix volontaire…
+Chacun fait un peu comme il l'entend et au final, beaucoup d'APIs ne sont pas documentées de cette manière, soit par antériorité, soit par choix volontaire…
 
 La diversité permet aussi d'améliorer régulièrement le *standard* en se nourrissant des bonnes idées des autres!
 
