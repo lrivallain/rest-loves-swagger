@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="revealjs/css/reveal.css">
     <link rel="stylesheet" href="revealjs/css/theme/sii.css"> <!-- SII theme -->
     <link rel="stylesheet" href="css/vmware.css"> <!-- your custom styles -->
+    <link rel="stylesheet" href="css/vmug.css"> <!-- your custom styles -->
 
     <!-- Theme used for syntax highlighting of code -->
     <link rel="stylesheet" href="revealjs/lib/css/zenburn.css">
@@ -19,31 +21,23 @@
         var link = document.createElement('link');
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = window.location.search.match(/print-pdf/gi) ? 'revealjs/css/print/pdf.css' : 'revealjs/css/print/paper.css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'revealjs/css/print/pdf.css' :
+            'revealjs/css/print/paper.css';
         document.getElementsByTagName('head')[0].appendChild(link);
     </script>
-  </head>
+</head>
 
-  <body>
+<body>
     <div class="reveal">
         <div class="slides">
-            <section data-markdown="intro-vmug.md"
-                     data-separator="^\n\n\n"
-                     data-separator-vertical="^\n\n"
-                     data-separator-notes="^Note:"
-                     data-charset="UTF-8">
+            <section data-markdown="intro-vmug.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
+                data-separator-notes="^Note:" data-charset="UTF-8">
             </section>
-            <section data-markdown="content.md"
-                     data-separator="^\n\n\n"
-                     data-separator-vertical="^\n\n"
-                     data-separator-notes="^Note:"
-                     data-charset="UTF-8">
+            <section data-markdown="content.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
+                data-separator-notes="^Note:" data-charset="UTF-8">
             </section>
-            <section data-markdown="end.md"
-                     data-separator="^\n\n\n"
-                     data-separator-vertical="^\n\n"
-                     data-separator-notes="^Note:"
-                     data-charset="UTF-8">
+            <section data-markdown="end.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
+                data-separator-notes="^Note:" data-charset="UTF-8">
             </section>
         </div>
     </div>
@@ -66,17 +60,26 @@
             backgroundTransition: 'none', // none/fade/slide/convex/concave/zoom
 
             // More info https://github.com/hakimel/reveal.js#dependencies
-            dependencies: [
-                { src: 'revealjs/plugin/markdown/marked.js' },
-                { src: 'revealjs/plugin/markdown/markdown.js' },
-                { src: 'revealjs/plugin/notes/notes.js', async: true },
-                { src: 'revealjs/plugin/highlight/highlight.js',
+            dependencies: [{
+                    src: 'revealjs/plugin/markdown/marked.js'
+                },
+                {
+                    src: 'revealjs/plugin/markdown/markdown.js'
+                },
+                {
+                    src: 'revealjs/plugin/notes/notes.js',
+                    async: true
+                },
+                {
+                    src: 'revealjs/plugin/highlight/highlight.js',
                     async: true,
-                    callback: function() {
+                    callback: function () {
                         hljs.initHighlightingOnLoad();
                     }
                 },
-                { src: 'plugins/menu/menu.js' }
+                {
+                    src: 'plugins/menu/menu.js'
+                }
             ],
 
             menu: {
@@ -112,5 +115,6 @@
         });
     </script>
     <a href="#/0/0"><img class="logo" src="./images/vmugfr.png" /></a>
-  </body>
+</body>
+
 </html>

@@ -1,11 +1,11 @@
 ## Conclusion & questions
-<!-- .slide: style="text-align:center;" -->
+<!-- .slide: style="text-align:center;" data-state="nologo-slide" -->
 
-Les slides de la présentation:
+Les slides de la présentation: 
+[vupti.me/rls](https://vupti.me/rls)<!-- .element style="font-size:1.2em;" -->
 
-[vupti.me/rest-loves-swagger](https://vupti.me/rest-loves-swagger)
+### Merci !
 
-
-## Merci !
-![Sponsors](./images/sponsors_vmug.png)
+![Sponsors SII](../revealjs/images/logo-sii.svg)<!-- .element style="width:20%;" -->
+![Sponsors VMUG](../images/vmugfr.png)<!-- .element style="width:20%;" -->
 <!-- .slide: style="text-align: center;" -->

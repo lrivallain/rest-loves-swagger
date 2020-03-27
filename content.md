@@ -23,13 +23,13 @@ Kyle Ruddy @ VMware Inc. <!-- .element style="font-size:0.8em; text-align: right
 ![Meme - API are everywhere](./images/APIEverywhereMeme.png)
 
 
-### Petit sondage
+<!--TODO:### Petit sondage-->
 <!-- .slide: style="text-align:center;" -->
 
-2 rapides questions: [https://vupti.me/apipool](https://vupti.me/apipool)
+<!--TODO:2 rapides questions: [https://vupti.me/apipool](https://vupti.me/apipool)
 
 ![QR Code](./images/qr-code-api-pool.png)<!-- .element style="max-width:45%;" -->
-
+<!--TODO:
 
 ### C'est parti!
 
@@ -37,8 +37,6 @@ Kyle Ruddy @ VMware Inc. <!-- .element style="font-size:0.8em; text-align: right
     title="Résultats du sondage"
     src="https://directpoll.com/r?XDbzPBd3ixYqg8nMDHJLmRQB4dJyUfDjWycpEuEv">
 </iframe><!-- .element style="width:100%; height: 500px" -->
-
-
 ### Alors c'est quoi une API?
 
 Une API est une interface de service:
@@ -54,7 +52,6 @@ Le but d'une API c'est de permettre une communication avec un langage commun.
 On retrouve des APIs dans toutes les interactions *M2M* (Machine to machine) du quotidien:
 
 * Votre téléphone portable
-* Un magasin
 * Une maison
 * Une voiture
 * Votre navigateur web
@@ -262,12 +259,6 @@ Content-Length: 27
   * Indépendance client/serveur
 
 
-<!-- ### Indépendance
-
-Un élément clé de REST est le concept d'indépendance qui l'accompagne:
-
-* Langage de programmation client/serveur
-*  -->
 ### REST à la conquête du monde
 <!-- .slide: style="text-align:center;" -->
 
@@ -275,9 +266,7 @@ Un élément clé de REST est le concept d'indépendance qui l'accompagne:
 
 
 
-## API: Description et standardisation
-<!-- .slide: style="text-align:center;" -->
-*Du moins, des tentatives*
+## Anatomie d'un appel d'API REST
 
 
 ### Anatomie d'une requête REST/HTTP
@@ -385,6 +374,12 @@ Dans une requête, le *body* permet d'envoyer:
 * Des données à enregistrer ou utiliser (fichiers, contenu texte etc.)
 
 Dans une réponse, le *body* contient généralement les données demandées ou générées pour une requête donnée.
+
+
+
+## API: Description et standardisation
+<!-- .slide: style="text-align:center;" -->
+*Du moins, des tentatives*
 
 
 ### OpenAPI

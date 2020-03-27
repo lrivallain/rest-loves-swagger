@@ -1,0 +1,5 @@
+requests
+coloredlogs
+jupyter
+ptpython
+RISE

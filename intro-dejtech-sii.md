@@ -1,6 +1,6 @@
 ![Speak Up](./images/logo-speakupbysii.png) <!-- .element style="max-width:40%;" -->
-# REST ❤ Swagger, mon SDK en 2 minutes ⏱
-<!-- .slide: class="centered" -->
+# REST <span style="color:#d91f11">❤</span> Swagger, mon SDK en 2 minutes ⏱
+<!-- .slide: data-state="nologo-slide" style="text-align: center;" -->
 
 
 
