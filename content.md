@@ -481,4 +481,4 @@ Le même principe peut être utilisé pour la génération de *bouchons* (Serveu
 ## Demo time !
 <!-- .slide: data-background="#2E2E2E" data-state="nologo-slide" style="text-align: center;" -->
 
-[>>> Par ici la démo ! <<<](http://vm:9999/notebooks/Swagger%20Code%20Gen%20[Demo].ipynb#)
+<!--[>>> Par ici la démo ! <<<](http://vm:9999/notebooks/Swagger%20Code%20Gen%20[Demo].ipynb#)-->
