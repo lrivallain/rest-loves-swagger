@@ -3,9 +3,15 @@ import base64
 import coloredlogs
 import logging
 import json
+#from rich.logging import RichHandler
+
+#logging.basicConfig(level=logging.DEBUG,
+#                    format="%(message)s",
+#                    datefmt="[%X] ",
+#                    handlers=[RichHandler()])
 
 # setup logger
-formatter = "%(asctime)s %(name)s %(levelname)s\t%(message)s"
+formatter = "%(name)s \t%(message)s"
 coloredlogs.install(fmt=formatter, level='DEBUG')
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)

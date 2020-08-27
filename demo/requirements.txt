@@ -3,3 +3,4 @@ coloredlogs
 jupyter
 ptpython
 RISE
+rich

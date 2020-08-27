@@ -23,20 +23,6 @@ Kyle Ruddy @ VMware Inc. <!-- .element style="font-size:0.8em; text-align: right
 ![Meme - API are everywhere](./images/APIEverywhereMeme.png)
 
 
-<!--TODO:### Petit sondage-->
-<!-- .slide: style="text-align:center;" -->
-
-<!--TODO:2 rapides questions: [https://vupti.me/apipool](https://vupti.me/apipool)
-
-![QR Code](./images/qr-code-api-pool.png)<!-- .element style="max-width:45%;" -->
-<!--TODO:
-
-### C'est parti!
-
-<iframe id="PoolResults"
-    title="Résultats du sondage"
-    src="https://directpoll.com/r?XDbzPBd3ixYqg8nMDHJLmRQB4dJyUfDjWycpEuEv">
-</iframe><!-- .element style="width:100%; height: 500px" -->
 ### Alors c'est quoi une API?
 
 Une API est une interface de service:
@@ -464,7 +450,12 @@ Hors, pour des applications conséquentes, un package client permet d'accélére
 
 ### Le code qui génère du code
 
-**Idée générale:** Utiliser le fichier descripteur de l'API pour générer des SDK de manière totalement naïve et uniquement basée sur le contenu du fichier OpenAPI, dans le language choisi et sans intervention humaine.
+**Idée générale:** Utiliser le fichier descripteur de l'API pour générer des SDK:
+
+* de manière totalement naïve
+* uniquement basée sur le contenu du fichier OpenAPI
+* dans le language choisi
+* sans intervention humaine.
 
 Le même principe peut être utilisé pour la génération de *bouchons* (Serveurs de test).
 
@@ -475,10 +466,9 @@ Le même principe peut être utilisé pour la génération de *bouchons* (Serveu
   * C#, PowerShell, Go, Java, Node.js, TypeScript, Python, Ruby et PHP
 * Swagger **CodeGen**:
   * ada, ada-server, akka-scala, android, apache2, apex, aspnetcore, bash, csharp, clojure, cwiki, cpprest, csharp-dotnet2, dart, dart-jaguar, elixir, elm, eiffel, erlang-client, erlang-server, finch, flash, python-flask, go, go-server, groovy, haskell-http-client, haskell, jmeter, jaxrs-cxf-client, jaxrs-cxf, java, inflector, jaxrs-cxf-cdi, jaxrs-spec, jaxrs, msf4j, java-pkmst, java-play-framework, jaxrs-resteasy-eap, jaxrs-resteasy, javascript, javascript-closure-angular, java-vertx, kotlin, lua, lumen, nancyfx, nodejs-server, objc, perl, php, powershell, pistache-server, python, qt5cpp, r, rails5, restbed, ruby, rust, rust-server, scala, scala-gatling, scala-lagom-server, scalatra, scalaz, php-silex, sinatra, slim, spring, dynamic-html, html2, html, swagger, swagger-yaml, swift5, swift4, swift3, swift, php-symfony, tizen, typescript-aurelia, typescript-angular, typescript-inversify, typescript-angularjs, typescript-fetch, typescript-jquery, typescript-node, undertow, ze-ph, kotlin-server<!-- .element style="font-size:0.6em;" -->
+* **OpenAPI Generator**
 
 
 
 ## Demo time !
 <!-- .slide: data-background="#2E2E2E" data-state="nologo-slide" style="text-align: center;" -->
-
-<!--[>>> Par ici la démo ! <<<](http://vm:9999/notebooks/Swagger%20Code%20Gen%20[Demo].ipynb#)-->
