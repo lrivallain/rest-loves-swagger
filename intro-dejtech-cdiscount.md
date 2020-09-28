@@ -1,7 +1,6 @@
-![Speak Up](./images/logo-speakupbysii.png) <!-- .element style="max-width:40%;" -->
-![Cdiscount](./images/cdiscount.jpg) <!-- .element style="max-width:25%;" -->
-# REST <span style="color:#d91f11">❤</span> Swagger, mon SDK en 2 minutes ⏱
-<!-- .slide: data-state="nologo-slide" style="text-align: center;" -->
+# ![Speak Up by SII / Cdiscount](./images/visuel_invitation_cdiscount.png) <!-- .element style="max-width:100%;" -->
+<!--# REST <span style="color:#d91f11">❤</span> Swagger, mon SDK en 2 minutes ⏱-->
+<!-- .slide: data-state="nologo-slide" style="text-align: center; .slide: data-background="#FFFFFF" -->
 
 
 
@@ -25,7 +24,7 @@
 Ingénieur Virtualisation et Cloud-computing:
 
 * Aider nos clients dans les tâches d'**automatisation de leur datacenter**
-* Conseiller vis-à-vis des **stratégie "Cloud"** à mettre en place
+* Conseiller vis-à-vis des **stratégies "Cloud"** à mettre en place
 * **Former** (Cloud, OpenStack, Virtualisation)
 
 **Communauté VMware Francophone**: speaker, vExpert Cloud Provider, Blog etc.
